@@ -71,7 +71,6 @@ body {
 
 .img {
     width: 100%;
-    height: 270px;
     position: relative;
     cursor: pointer;
 }
@@ -115,8 +114,22 @@ body {
 .underline h4 {
     font: bold 16px 'Roboto Condensed', sans-serif;
     color: #9b9797;
-    border-bottom: 1px solid #aaa;
-    padding-bottom: 10px;
+    margin-bottom: -3px;
+}
+
+.side-by-side {
+    display: flex;
+    border-top: 1px solid #aaa;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.more-stories {
+    margin-left: 15px;
+}
+
+.more-stories p {
+    font: 15px Arial, Helvetica, sans-serif;
 }
 
 .img-more {
@@ -258,6 +271,207 @@ body {
     color: #f72210;
 }
 
+.signup-newsletter {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    border: 1px solid #e2dddd;
+    background: #f4f5f6;
+    padding: 15px 20px;
+}
+
+.f-inside {
+    display: flex;
+}
+
+.n-special {
+    align-self: center;
+    font: bold 24px/22px 'Roboto Condensed', sans-serif;
+    background: #f72210;
+    color: #fff;
+    padding: 4px 9px;
+    position: relative;
+}
+
+.our-newsletter {
+    font: bold 19px/19px 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+.next {
+    font: bold 18px 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    background: #272727;
+    width: 110px;
+    padding: 10px 15px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preference {
+    font: bold 15px 'Roboto Condensed', sans-serif;
+    color: #333;
+}
+
+.double-arrow {
+    width: 7px;
+}
+
+.november {
+    text-transform: uppercase;
+}
+
+.features {
+    text-transform: uppercase;
+    text-align: center;
+    background: #eeeff0;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.features a {
+    font: bold 18px 'Roboto Condensed', sans-serif;
+    color: #000;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.features:hover {
+    background: #ccc;
+}
+
+.see-all {
+    margin-right: 8px;
+}
+
+.space {
+    margin-bottom: 27px;
+}
+
+.the-maga {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maga-n {
+    margin-right: 10px;
+    font: bold 24px/22px 'Roboto Condensed', sans-serif;
+    background: #f72210;
+    color: #fff;
+}
+
+.magazine {
+    text-transform: uppercase;
+    font: bold 18px 'Roboto Condensed', sans-serif;
+}
+
+.cover-usa {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cover {
+    margin-right: 10px;
+    background: #f72210;
+    font: bold 16px 'Roboto Condensed', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 2px 8px;
+}
+
+.usa {
+    font: bold 16px 'Roboto Condensed', sans-serif;
+    color: #f72210;
+    text-transform: uppercase;
+}
+
+.link-under {
+    line-height: 17px;
+}
+
+.link-under a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.link-under a:hover {
+    text-decoration: underline #f72210;
+}
+
+.editor {
+    border-bottom: 1px solid #bdb9b9;
+    padding-bottom: 13px;
+}
+
+.border-special::after {
+    border-bottom: 3px solid #f72210;
+    border-right: 3px solid #f72210;
+    display: block;
+    content: '';
+    width: 32px;
+    height: 31px;
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+}
+
+.border-tag {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 17px 7px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.border-tag a {
+    color: #f72210;
+    text-decoration: none;
+    border-top: 1px solid #f72210;
+    border-right: 1px solid #f72210;
+    border-bottom: 1px solid #f72210;
+    border-left: 1.5px solid #f72210;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.border-tag a::after {
+    border-top: 1px solid #f72210;
+    border-left: 1.5px solid #f72210;
+    display: block;
+    content: '';
+    width: 40px;
+    height: 29px;
+    position: absolute;
+    top: -4px;
+    left: -6px;
+}
+
+.red-title a {
+    text-decoration: none;
+    color: #f72210;
+    font: bold 22px "Roboto Condensed", sans-serif;
+}
+
+.d-line {
+    border-top: 1px solid #c2d4d7;
+    margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 576px) {
     .top-header {
         height: 50px;
@@ -271,5 +485,11 @@ body {
     }
     .sign-sub {
         margin-bottom: -5px;
+    }
+    .more-stories p {
+        font-size: 13px
+    }
+    .link-under a {
+        font-size: 17px;
     }
 }
