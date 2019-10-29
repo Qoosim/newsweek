@@ -517,7 +517,8 @@ body {
 .subscribe-block {
     background: #f4f5f6;
     position: relative;
-    height: 500px;
+    height: 470px;
+    margin-bottom: 20px;
 }
 
 .block-images-left {
@@ -534,7 +535,7 @@ body {
 
 .block-text {
     position: absolute;
-    bottom: 30px;
+    top: 250px;
     padding: 30px;
 }
 
@@ -548,14 +549,49 @@ body {
     font: 300 16px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .btn {
     font: bold 18px 'Roboto Condensed', sans-serif;
-    text-align: center;
     color: #fff;
     background: #f72210;
     text-transform: uppercase;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #f72210;
+}
+
+.img-special img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    width: 100%;
+    height: 180px;
+}
+
+.daily-brf {
+    position: relative;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #c2d4d7;
+}
+
+.daily-brf h3 {
+    font: bold 20px/24px 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: #000;
+    margin-top: 30px;
+}
+
+.daily-brf p {
+    font: 300 16px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -583,6 +619,9 @@ body {
         : 20px
     }
     .block-text p {
-        font: 300 16px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+    }
+    .btn {
+        margin-left: 33%;
     }
 }
