@@ -534,7 +534,7 @@ body {
 
 .block-text {
     position: absolute;
-    bottom: 70px;
+    bottom: 30px;
     padding: 30px;
 }
 
@@ -548,6 +548,14 @@ body {
     font: 300 16px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     padding-top: 10px;
+}
+
+.btn {
+    font: bold 18px 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: #fff;
+    background: #f72210;
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 576px) {
