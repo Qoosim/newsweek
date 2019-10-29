@@ -60,7 +60,7 @@ body {
 .title {
     font: bold 16px/16px 'Roboto Condensed', sans-serif;
     color: #aaa;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 11px;
     text-transform: uppercase;
 }
@@ -120,8 +120,8 @@ body {
 .side-by-side {
     display: flex;
     border-top: 1px solid #aaa;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .more-stories {
@@ -399,14 +399,14 @@ body {
 }
 
 .link-under {
-    line-height: 17px;
+    line-height: 7px;
+    margin-top: 8px;
 }
 
 .link-under a {
     text-decoration: none;
     color: #000;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
+    font: bold 17px 'Roboto Condensed', sans-serif;
 }
 
 .link-under a:hover {
@@ -472,6 +472,84 @@ body {
     margin-bottom: 20px;
 }
 
+.three-sides {
+    display: flex;
+    border-bottom: 1px solid #aaa;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hv-red {
+    line-height: 20px;
+}
+
+.hv-red a {
+    font: bold 17px 'Roboto Condensed', sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+
+.hv-red a:hover {
+    color: #f72210;
+}
+
+.first-child {
+    padding-top: 15px;
+}
+
+.last-child {
+    padding-bottom: 40px;
+    border-bottom: none;
+}
+
+.title-diff {
+    text-transform: capitalize;
+}
+
+.block-title {
+    font: bold 16px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    color: #f72210;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.subscribe-block {
+    background: #f4f5f6;
+    position: relative;
+    height: 500px;
+}
+
+.block-images-left {
+    position: absolute;
+    top: 23px;
+    left: 100px;
+}
+
+.block-images-right {
+    position: absolute;
+    top: 35px;
+    right: 100px;
+}
+
+.block-text {
+    position: absolute;
+    bottom: 70px;
+    padding: 30px;
+}
+
+.block-text h3 {
+    font: bold 20px/24px 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: #000;
+}
+
+.block-text p {
+    font: 300 16px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
 @media only screen and (max-width: 576px) {
     .top-header {
         height: 50px;
@@ -491,5 +569,12 @@ body {
     }
     .link-under a {
         font-size: 17px;
+    }
+    .block-text h3 {
+        font-size;
+        : 20px
+    }
+    .block-text p {
+        font: 300 16px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 }
