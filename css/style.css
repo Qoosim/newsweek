@@ -688,6 +688,14 @@ body {
     color: #53534b;
 }
 
+@media screen and (max-width: 576px) {
+    .the-maga {
+        padding-top: 20px;
+    }
+}
+
+
+/* 
 @media only screen and (max-width: 576px) {
     .top-header {
         height: 50px;
@@ -726,4 +734,4 @@ body {
         display: flex;
         flex-direction: column;
     }
-}
+} */
