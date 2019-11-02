@@ -42,25 +42,6 @@ body {
     background: #fff;
 }
 
-
-/* 
-.container-fluid {
-    max-width: 1300px;
-    margin: 0 auto;
-    background: #fff;
-} */
-
-
-/* 
-.top-header {
-    height: 100px;
-    background: #f72210;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-} */
-
 .date {
     margin-left: 30px;
     margin-bottom: -40px;
@@ -218,7 +199,6 @@ body {
 
 .story-link {
     font-size: 16px;
-    /* word-spacing: 3px; */
     margin-top: 10px;
     margin-bottom: 10px;
 }
