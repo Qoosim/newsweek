@@ -533,42 +533,42 @@ body {
 .subscribe-block {
     background: #f4f5f6;
     position: relative;
-    height: 470px;
+    height: 300px;
     margin-bottom: 20px;
 }
 
 .block-images-left {
     position: absolute;
-    top: 23px;
-    left: 100px;
+    top: 30px;
+    left: 30px;
 }
 
 .block-images-right {
     position: absolute;
-    top: 35px;
-    right: 100px;
+    top: 43px;
+    left: 100px;
 }
 
 .block-text {
     position: absolute;
-    top: 250px;
-    padding: 30px;
+    top: 70px;
+    left: 310px;
 }
 
 .block-text h3 {
-    font: bold 20px/24px 'Roboto Condensed', sans-serif;
-    text-align: center;
+    width: 90%;
+    font: bold 24px/28px 'Roboto Condensed', sans-serif;
     color: #000;
 }
 
 .block-text p {
     font: 300 16px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .btn {
+    width: 150px;
     font: bold 18px 'Roboto Condensed', sans-serif;
     color: #fff;
     background: #f72210;
@@ -580,34 +580,43 @@ body {
     background: #f72210;
 }
 
-.img-special img {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    width: 100%;
-    height: 180px;
+.brf-img {
+    width: 190px;
+    height: 300px;
+}
+
+.brf-block {
+    height: 300px;
 }
 
 .daily-brf {
-    position: relative;
-    height: 200px;
+    height: 300px;
     margin-bottom: 20px;
     border: 1px solid #c2d4d7;
+    padding: 25px;
 }
 
 .daily-brf h3 {
     font: bold 20px/24px 'Roboto Condensed', sans-serif;
-    text-align: center;
     color: #000;
     margin-top: 30px;
 }
 
 .daily-brf p {
     font: 300 16px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.btn-sign-up {
+    width: 110px;
+    font: bold 18px 'Roboto Condensed', sans-serif;
+    color: #fff;
+    background: #f72210;
+    text-transform: uppercase;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .footer-top {
