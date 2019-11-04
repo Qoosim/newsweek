@@ -153,10 +153,6 @@ body {
     padding-bottom: 15px;
 }
 
-.more-stories {
-    margin-left: 15px;
-}
-
 .more-stories p {
     font: 15px Arial, Helvetica, sans-serif;
 }
@@ -496,15 +492,7 @@ body {
 }
 
 .d-line {
-    border-top: 1px solid #c2d4d7;
     margin-bottom: 20px;
-}
-
-.three-sides {
-    display: flex;
-    border-bottom: 1px solid #aaa;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .hv-red {
