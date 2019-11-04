@@ -620,12 +620,11 @@ body {
 }
 
 .footer-top {
-    border-bottom: 1px solid #aaa;
-    padding: 10px;
+    border-bottom: 1px solid #c2d4d7;
 }
 
 .footer-title h3 {
-    font: bold 55px/24px 'Roboto Slab', sans-serif;
+    font: bold 50px/24px 'Roboto Slab', sans-serif;
     color: #f72210;
 }
 
@@ -659,21 +658,32 @@ body {
     flex-direction: column;
 }
 
-.link-left ul {
-    width: 100%;
+.link-wrap-first {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: 18px;
+}
+
+.link-left {
+    position: relative;
+    padding-top: 10px;
+}
+
+.link-right {
+    display: flex;
+}
+
+.link-wrap-last {
     list-style: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.link-right ul {
-    width: 100%;
-    list-style: none;
-}
-
 .b-link {
-    width: 100px;
+    line-height: 30px;
 }
 
 .link-wrap-first {
@@ -681,8 +691,11 @@ body {
 }
 
 .b-link a {
-    font-size: 14px;
+    font: 14px/16px "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #53534b;
+    border-right: 1px solid #c2d4d7;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 @media screen and (max-width: 576px) {
