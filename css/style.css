@@ -7,6 +7,10 @@ body {
 .top-header {
     background: #f72210;
     height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-link a {
@@ -68,25 +72,44 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     color: #fff;
-    margin-right: 40px;
-    margin-bottom: -50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 40px;
 }
 
 .sign-in {
     cursor: pointer;
+    margin-right: -10px;
 }
 
 .subscribe {
     margin-left: 20px;
     background: #fff;
     color: #f72210;
-    padding: 0 12px;
+    padding: 2px 27px 2px 9px;
     cursor: pointer;
+    position: relative;
+}
+
+.subscribe::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    border-right: 2px solid #f72210;
+    border-bottom: 2px solid #f72210;
+    width: 9px;
+    height: 9px;
+    transform: rotate(-45deg);
+    margin-top: 7px;
+    margin-left: 7px;
 }
 
 .bars a {
     font-size: 30px;
-    color: #c2d4d7;
+    color: #eea89f;
+    margin-left: 30px;
 }
 
 .icon {
@@ -109,6 +132,10 @@ body {
     width: 100%;
     position: relative;
     cursor: pointer;
+}
+
+.insight {
+    margin: auto;
 }
 
 .tag {
@@ -158,6 +185,10 @@ body {
     border-top: 1px solid #aaa;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.more-stories {
+    margin-left: 17px;
 }
 
 .more-stories p {
@@ -507,8 +538,13 @@ body {
     margin-bottom: 20px;
 }
 
+.img-inside {
+    display: flex;
+}
+
 .hv-red {
     line-height: 20px;
+    margin-left: 17px;
 }
 
 .hv-red a {
@@ -753,11 +789,8 @@ body {
         display: none;
     }
     .big-title {
-        font-size: 25px;
-        margin-left: 15px;
-    }
-    .sign-sub {
-        margin-bottom: -5px;
+        font-size: 23px;
+        margin-left: 10px;
     }
     .more-stories p {
         font-size: 13px
@@ -840,6 +873,40 @@ body {
     .link-right {
         padding-top: -10px;
     }
+    .img-more {
+        width: 258px;
+        height: 172px;
+    }
+    .block-top {
+        margin-top: 20px;
+    }
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 992px) {
+    .top-header {
+        height: 50px;
+    }
+    .date {
+        display: none;
+    }
+    .nav-link {
+        display: none;
+    }
+    .big-title {
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    .sign-sub {
+        margin-bottom: 35px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bars a {
+        display: none;
+    }
+    .insight {
+        margin: 0;
+    }
+}
