@@ -12,7 +12,7 @@ It was built by Qoosim AbdulGhaniyy Adekunle.
 
 **Live Version**
 
-<!-- Check out [Live Version](https://raw.githack.com/Qoosim/the-next-web/next-web/index.html) of this project. -->
+Check out [Live Version](https://raw.githack.com/Qoosim/newsweek/news/index.html) of this project.
 
 **Contributions**
 
