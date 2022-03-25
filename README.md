@@ -3,23 +3,45 @@
 **About the Project**
 
 This is a solo project to build a replica of the news site Newsweek.com using the Bootstrap framework.
-It was built by Qoosim AbdulGhaniyy Adekunle.
 
-**Built With**
+
+## Built With
 
    * HTML  
    * CSS
+   * Bootstrap 4
 
-**Live Version**
+    
+ ## Live Demo
 
-Check out [Live Version](https://raw.githack.com/Qoosim/newsweek/news/index.html) of this project.
+[Live Demo](https://raw.githack.com/Qoosim/newsweek/news/index.html) :point_left:
 
-**Contributions**
 
-Any contributions are **greatly appreciated**
+## Author
 
-1. Fork the Project
-2. Create your Feature Branch ```(git checkout -b feature/AmazingFeature)```
-3. Commit your Changes ```(git commit -m 'Add some AmazingFeature')```
-4. Push to the Branch ```(git push origin feature/AmazingFeature)```
-5. Open a Pull Request
+👤 **Author1**
+
+- Fullname: Qoosim AbdulGhaniyy
+- GitHub: [@Qoosim](https://github.com/Qoosim)
+- LinkedIn: [@Qoosim](https://www.linkedin.com/in/qoosim)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
