@@ -1,19 +1,24 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# NewsWeek
 
-> Description the project.
+> This is a solo project to build a replica of the news site Newsweek.com using the Bootstrap framework.
 
+![](![newsweek](https://user-images.githubusercontent.com/26597432/175610079-275dec95-0a0f-4f80-8401-8254fb468ef0.png)
+)
 
 ## Built With
 
 - Major languages
+-- Html && Css
 - Frameworks
+-- Bootstrap 4
 - Technologies used
+-- Html, Css, Bootstrap 4
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/Qoosim/newsweek/news/index.html) :point_left:
 
 
 ## Getting Started
@@ -38,67 +43,13 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
-
-# Newsweek
-
-**About the Project**
-
-This is a solo project to build a replica of the news site Newsweek.com using the Bootstrap framework.
-
-
-## Built With
-
-   * HTML  
-   * CSS
-   * Bootstrap 4
-
-    
- ## Live Demo
-
-[Live Demo](https://raw.githack.com/Qoosim/newsweek/news/index.html) :point_left:
-
-
 ## Author
 
-👤 **Author1**
+👤 **Qoosim AbdulGhaniyy**
 
-- Fullname: Qoosim AbdulGhaniyy
-- GitHub: [@Qoosim](https://github.com/Qoosim)
-- LinkedIn: [@Qoosim](https://www.linkedin.com/in/qoosim)
-
+- GitHub: [Qoosim](https://github.com/Qoosim)
+- Twitter: [Qoosim](https://twitter.com/qoosim_ayinde)
+- LinkedIn: [Qoosim](https://linkedin.com/in/qoosim)
 
 ## 🤝 Contributing
 
