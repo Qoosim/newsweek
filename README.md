@@ -18,6 +18,7 @@
   - Html
   - Css
   - Bootstrap 4
+  - Git && Github
 
 ## Live Demo (if available)
 
@@ -26,18 +27,26 @@
 
 ## Getting Started
 
+### Prerequisites
+
+- IDE to edit and run the code (We use Visual Studio Code fire).
+- Git to versionning your work.
+
+### Install
+
 To get a local copy up and running follow these simple example steps.
 
 - Clone the repository using:
- ``
+ ```
     git clone git@github.com:Qoosim/newsweek.git
-``
+```
 - Navigate to the newsweek with this command 
- ``
+ ```
    cd newsweek 
- ``
+ ```
+ - Install Visual Studio extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) or any text editor of your choice
 
-- Install Visual Studio extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) or any text editor of your choice
+### Usage
 
 - Enable Live Server
 
