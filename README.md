@@ -10,11 +10,14 @@
 ## Built With
 
 - Major languages
--  Html && Css
+  - Html
+  - Css
 - Frameworks
--  Bootstrap 4
+  - Bootstrap 4
 - Technologies used
-   Html, Css, Bootstrap 4
+  - Html
+  - Css
+  - Bootstrap 4
 
 ## Live Demo (if available)
 
