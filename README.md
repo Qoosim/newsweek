@@ -44,7 +44,7 @@ To get a local copy up and running follow these simple example steps.
  ```
    cd newsweek 
  ```
- - Install Visual Studio extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) or any text editor of your choice
+ - Install Visual Studio extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ### Usage
 
