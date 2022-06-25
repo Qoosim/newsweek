@@ -26,24 +26,22 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+- Clone the repository using:
+ ``
+    git clone git@github.com:Qoosim/newsweek.git
+``
+- Navigate to the newsweek with this command 
+ ``
+   cd newsweek 
+ ``
 
-### Setup
+- Install Visual Studio extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) or any text editor of your choice
 
-### Install
+- Enable Live Server
 
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Play around the site
 
 
 ## Author
