@@ -4,17 +4,17 @@
 
 > This is a solo project to build a replica of the news site Newsweek.com using the Bootstrap framework.
 
-![](![newsweek](https://user-images.githubusercontent.com/26597432/175610079-275dec95-0a0f-4f80-8401-8254fb468ef0.png)
-)
+![](./images/demo.jpeg)
+
 
 ## Built With
 
 - Major languages
--- Html && Css
+-  Html && Css
 - Frameworks
--- Bootstrap 4
+-  Bootstrap 4
 - Technologies used
--- Html, Css, Bootstrap 4
+   Html, Css, Bootstrap 4
 
 ## Live Demo (if available)
 
